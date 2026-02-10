@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import { api } from '../services/api';
-import Ticker from '../components/Market/Ticker';
-import OrderBook from '../components/Market/OrderBook';
-import OrderForm from '../components/Market/OrderForm';
+import { api } from '../../services/api';
+import Ticker from '../Market/Ticker';
+import OrderBook from '../Market/OrderBook';
+import OrderForm from '../Market/OrderForm';
 
 export default function Dashboard() {
     const [instruments, setInstruments] = useState([]);

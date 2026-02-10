@@ -34,10 +34,12 @@ graph TD
 ```
 
 ## Setup & Running
-1.  Start Docker:
-    ```bash
-    docker compose up -d
-    ```
+
+1. **Start Infrastructure**
+   > **Note**: Make sure Docker Desktop is running first!
+   ```bash
+   docker compose up -d
+   ```
 2.  Run Migrations:
     ```bash
     alembic upgrade head
