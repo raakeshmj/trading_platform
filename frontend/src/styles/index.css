@@ -1,0 +1,9 @@
+@import './theme.css';
+@import './utilities.css';
+
+/* Default Vite reset override if needed, otherwise empty */
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
