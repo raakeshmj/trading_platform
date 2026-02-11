@@ -9,7 +9,7 @@ A production-grade trading system simulating a NASDAQ-style exchange with:
 ## Architecture
 
 
-## Key Metrics (For Resume)
+## Key Metrics 
 - **High-Performance Matching**: In-memory engine processed **<1ms median latency** for order matching using `SortedList` data structures.
 - **Scalable Architecture**: Decoupled matching engine and API layers, communicating via **Redis Pub/Sub** for real-time order book dissemination.
 - **Concurrent Processing**: Handled concurrent order submissions with **asyncio.Lock** per symbol to ensure correctness without global blocking.
