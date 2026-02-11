@@ -6,9 +6,6 @@ A production-grade trading system simulating a NASDAQ-style exchange with:
 - **Redis** (Pub/Sub & Caching)
 - **In-Memory Matching Engine** (Price-Time Priority)
 
-## Architecture
-
-
 ## Key Metrics 
 - **High-Performance Matching**: In-memory engine processed **<1ms median latency** for order matching using `SortedList` data structures.
 - **Scalable Architecture**: Decoupled matching engine and API layers, communicating via **Redis Pub/Sub** for real-time order book dissemination.
